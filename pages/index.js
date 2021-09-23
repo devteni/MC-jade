@@ -1,7 +1,5 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Link } from 'react-dom';
 import { NavBar } from '../components/Navbar';
 import { Index } from './home';
 
