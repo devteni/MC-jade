@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Navbar, Container, NavDropdown,  } from 'react-bootstrap';
 import Link from "next/link";
+import ContactModal from "./ContactModal";
 
 export const NavBar = () => {
     return(
@@ -12,9 +13,9 @@ export const NavBar = () => {
             <Nav className="nav">
               <Nav.Link href="/about" className="dropdown">About us
                 <ul className="dropdownMenu">
-                  <li><a href="#">Our History</a></li>
-                  <li><a href="#">Our Clients</a></li>
-                  <li><a href="#">Our Big Shots</a></li>
+                  <li><Link href="/about">Our History</Link></li>
+                  <li><Link href="/about">Our Clients</Link></li>
+                  <li><Link href="/about">Our Big Shots</Link></li>
                 </ul>
               </Nav.Link>
               <Nav.Link href="/services" className="dropdown">Services
@@ -25,7 +26,7 @@ export const NavBar = () => {
                 </ul>
               </Nav.Link> 
               <Nav.Link href="/whyus">Why MCjade</Nav.Link>
-              <Nav.Link href="#">Contact</Nav.Link>
+              <Nav.Link href="/contact">Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>

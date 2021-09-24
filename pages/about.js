@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
-import pic from "../public/assets/img/design-build-home.jpg";
+import pic from "../public/assets/img/korte-img.png";
 import Image from "next/image"
 import { NavBar } from "../components/Navbar";
 import { Attribution } from "../components/Attribution";
+import { Footer } from "../components/Footer";
 
 const About = () => {
     return(
@@ -37,8 +38,6 @@ const About = () => {
                 <Container className="pt-5">
                     <div className="row">
                         <Col sm>
-                            <h1 className="font-weight-bolder" style={{color: "rgba(255, 136, 0, 0.808)"}}>WE&apos;RE THE BEST AT WHAT WE DO
-                            </h1>
                             <section>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptates, possimus ipsa quod amet maiores cum suscipit iure obcaecati veniam quis quae unde doloremque mollitia autem nulla nisi fugiat eveniet? Et inventore dolores necessitatibus alias corrupti ducimus quibusdam ipsam voluptatum, cum dignissimos reiciendis, impedit quia tempore sit tempora animi molestias provident nemo modi mollitia maxime! 
                                 Voluptates, rem aspernatur. Iure fuga, cumque, perferendis mollitia ullam odit explicabo soluta quo 
@@ -47,22 +46,23 @@ const About = () => {
                                 perspiciatis quas dolore aperiam reiciendis. Esse, dolor labore nobis debitis in quam id corporis ratione 
                                 </p>
                                 <Row className="pt-5">
-                                    <span className="pt-5"><a href="#" className="cta">Company Timeline</a></span>
-                                    <span className="pt-5"><a href="#" className="cta">Company Timeline</a></span>
+                                    <Col>
+                                        <span ><a href="#" className="cta">Company Timeline</a></span>
+                                        <span><a href="#" className="cta">Prospectus</a></span>
+                                    </Col>   
                                 </Row>
 
                             </section>
                             
                         </Col>
                             <Col sm className="pt-2">
-                                <Image src={pic} alt="display-img" layout="responsive" />
+                                <Image src={pic} alt="display-img" layout="fixed" />
                             </Col>
                     </div>
                 </Container>
             </section>
-
             <Attribution />
-
+            <Footer />
         </div>
     )
 }

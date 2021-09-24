@@ -5,6 +5,7 @@ import { Footer } from "../components/Footer";
 import pic from "../public/assets/img/design-build-home.jpg";
 import { Container, Row, Col } from "react-bootstrap";
 import { Attribution } from "../components/Attribution";
+import Link from "next/link";
 
 const services = [
     {
@@ -99,10 +100,22 @@ export const Index = () => {
             <section id="part4">
                 <section className="resource">
                     <Container className="resource-text">
-                        <h2>Resources and guides</h2>
-                        <p>We believe in getting you the answers you need. 
-                            We manage a library of valuable resources including construction industry articles and downloadable white papers and guides you can use as you consider a partnership with The Korte Company.
-                        </p>
+                        <div>
+                            <h2>Resources and guides</h2>
+                            <p>We believe in getting you the answers you need. 
+                                We manage a library of valuable resources including construction industry articles and downloadable white papers and guides you can use as you consider a partnership with The Korte Company. 
+                            </p>
+                            <span className="cta">View resources</span>
+                        </div>
+                        <div>
+                            <h2>About MCjade</h2>
+                            <p>
+                                Founded in xxxx by a farmer’s son who once said he’d rather drive nails than eat, Mc Jade Company today is one of the country’s leading Design-Build construction firms. We’re as committed today to a job well done as Jane Doe was 20 years ago.
+                            </p>
+                            <span className="cta">
+                                <Link href="/about">Learn more</Link>
+                            </span>
+                        </div>
                     </Container>
                     </section>
                 

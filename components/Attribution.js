@@ -1,5 +1,11 @@
 import React from "react";
 import { Container, Col, Row } from "react-bootstrap";
+import Image from 'next/image'
+import Corps from "../public/assets/img/US-Army.png";
+import USCorps from "../public/assets/img/US-Army-Corps-of-Engineers.png";
+import USPS from "../public/assets/img/USPS.png";
+import Walgreens from "../public/assets/img/Walgreens.png";
+
 
 export const Attribution = () => {
     return(
@@ -12,10 +18,10 @@ export const Attribution = () => {
                             <Col sm>
                                 <Row className="justify-center mx-3 px-5">
                                     <div style={{display: "flex", flexWrap: "wrap"}}>
-                                    <div className="box"></div>
-                                    <div className="box"></div>
-                                    <div className="box"></div>
-                                    <div className="box"></div>
+                                    <div className="box" data-aos="zoom-in"><Image src={Corps}/></div>
+                                    <div className="box" data-aos="zoom-in"><Image src={USCorps}/></div>
+                                    <div className="box" data-aos="zoom-in"><Image src={Walgreens}/></div>
+                                    <div className="box" data-aos="zoom-in"><Image src={USPS}/></div>
                                     <div className="box"></div>
                                     <div className="box"></div>
                                     <div className="box"></div>
