@@ -16,7 +16,7 @@ export const Attribution = () => {
                         <Col lg={3}><h1 className="part2text">We&apos;ve built for the best</h1></Col>
                         <Col className="mx-5">
                             <Col sm>
-                                <Row className="justify-center mx-3 px-5">
+                                <Row className="justify-center mx-lg-3 px-lg-5">
                                     <div style={{display: "flex", flexWrap: "wrap"}}>
                                     <div className="box" data-aos="zoom-in"><Image src={Corps}/></div>
                                     <div className="box" data-aos="zoom-in"><Image src={USCorps}/></div>
@@ -28,10 +28,13 @@ export const Attribution = () => {
                                     <div className="box"></div> 
                                     </div>
                                 </Row>
+                                <Row>
+                                    <a href="#" className="cta text-center">See more</a>
+                                </Row>
                             </Col>
                         </Col>
                     </Row>
-                   <a href="#" className="cta">See more</a>
+                    
                 </Container>
             </section>
 

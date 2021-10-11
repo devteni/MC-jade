@@ -15,7 +15,7 @@ const About = () => {
                 <Container>
                     <Row>
                         <Col sm>
-                            <h1 className="p-5 font-weight-bolder text-center herotext">ABOUT MCJADE COMPANY</h1>
+                            <h1 className="p-5 font-weight-bold text-center herotext">ABOUT MCJADE COMPANY</h1>
                         </Col>
                     </Row>
                 </Container>
@@ -23,13 +23,14 @@ const About = () => {
             <div className="company-culture">
                 <Container>
                     <Row>
-                        <Col>
-                            <h1 className="">Company Culture in Construction</h1>
-                            <p style={{fontSize:"20px"}}>What to expect during the course of construction</p>
+                        <Col className="p-4">
+                            <h1 className="" style={{fontSize: '20px'}}>Company Culture in Construction</h1>
+                            <p style={{fontSize:"15px"}} className="text-left">What to expect during the course of construction</p>
                         </Col>
                         
-                        <Col lg={3} className="p-3">
-                            <span className="cta p-3" > Download guide</span>
+                        <Col lg={3} className="p-4">
+                            <p><span className="cta p-3" style={{padding: '16px', position: 'relative', top: '-30%'}}> Download guide </span></p>
+                            
                         </Col>
                     </Row>
                 </Container>
@@ -45,10 +46,10 @@ const About = () => {
                                 ab assumenda? Ullam, eos animi? Natus facere libero, sunt vitae ipsam dolorum quae. Nobis error impedit rem 
                                 perspiciatis quas dolore aperiam reiciendis. Esse, dolor labore nobis debitis in quam id corporis ratione 
                                 </p>
-                                <Row className="pt-5">
-                                    <Col>
-                                        <span ><a href="#" className="cta">Company Timeline</a></span>
-                                        <span><a href="#" className="cta">Prospectus</a></span>
+                                <Row className="pt-5 text-center">
+                                    <Col style={{display: 'flex', flexWrap: 'wrap'}}>
+                                        <span ><a href="#" className="cta m-2">Company Timeline</a></span>
+                                        <span><a href="#" className="cta m-2">Prospectus</a></span>
                                     </Col>   
                                 </Row>
 

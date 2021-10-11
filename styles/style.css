@@ -16,15 +16,26 @@
 @media (min-width: 992px) {
   .dropdown:hover > .dropdownMenu {
     display: block;
-    padding: 5px 8px;
-    margin-top: 190px;
-    background:none;
+    position: absolute;
+    padding: 10px 38px;
+    margin-top: 15px;
+    background:blue;
     background: gray;
     list-style-type: none;
+    
   }
-
+  .service {
+    margin: 20px 5px;
+    padding: 50px 10px;
+    border: 6px solid #e5e7e9;
+    text-align: center;
+    width: 20vw;
+  }
   .dropdown:hover .dropdownMenu > *{
     padding: 10px;
+  }
+  .dropdown:hover .dropdownMenu > li {
+    width: 200px;
   }
   .dropdown:hover .dropdownMenu > li > *{
     color: white;
@@ -41,29 +52,102 @@
     font-size: 40px;
   }
   
+  .cta{
+    margin: 30px;
+    padding: 15px;
+    border-radius: 1px solid rgba(255, 136, 0, 0.808);
+    background-color: rgba(255, 136, 0, 0.808);
+    color: white;
+    font-size: large;
+    font-weight: 500;
+    text-decoration:none;
+    cursor: pointer;
+  }
+
+  .box {
+    /* background: gray; */
+    margin: 20px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .herotext{
+    padding: 30px;
+    font-size: 60px;
+    font-weight: bolder;
+    color: white;
+    border: 5px solid rgba(255, 136, 0, 0.808);
+  }
+  #part4{
+    padding: 150px;
+    background: #333;
+    /* position: relative; */
+  }
+  .resource-text{
+    font-size: 20px;
+  }
+  .resource-text div h2{
+    font-size: 40px;
+  }
 }
+
+.serv{
+  margin: 20px 5px;
+  padding: 40px 10px;
+  border: 2px solid #e5e7e9;
+  text-align: center;
+}
+
+.serv h4 {
+  text-transform: uppercase;
+  font-weight: bold;
+  /* padding: ; */
+}
+
+.serv p {
+  color: #9b9b9b;
+  font-size: 14px;
+  /* padding: 10px */
+}
+
+.serv:hover{
+  transition: .3s;
+  background-color: rgba(255, 136, 0, 0.808);
+  color: white;
+}
+
+
+.service {
+  margin: 20px 5px;
+  padding: 50px 10px;
+  border: 6px solid #e5e7e9;
+  text-align: center;
+  width: 80vw;
+}
+
 
 .hero{
   background: url("../public/assets/img/background.png");
   height: 100vh;
-  padding-top: 105px
+  padding-top: 105px;
+  /* position: relative; */
 }
 
 .herotext{
   padding: 30px;
-  font-size: 60px;
-  font-weight: bolder;
+  font-size: 40px;
+  font-weight: 400;
   color: white;
   border: 5px solid rgba(255, 136, 0, 0.808);
 }
 
 .cta{
-  margin: 30px;
+  margin-bottom: 30px;
   padding: 15px;
   border-radius: 1px solid rgba(255, 136, 0, 0.808);
   background-color: rgba(255, 136, 0, 0.808);
   color: white;
-  font-size: large;
+  font-size: small;
   font-weight: 500;
   text-decoration:none;
   cursor: pointer;
@@ -102,55 +186,37 @@
 }
 
 #part4{
-  padding: 150px;
   background: #333;
-  position: relative;
 }
 
 .resource{
-  height: 100vh;
-  width: auto;
   background-color: rgba(0, 0, 0, 0.658);
-
   /* opacity: 0.4; */
-  
 }
 
 .resource-text{
   background-image: url("../public/assets/img/resource-bg.jpg");
+  background-size: cover;
   padding: 20px;
   box-shadow: 0 46px 34px -30px rgba(0,0,0,.34);
   font-weight: bold;
-  font-size: 20px;
-  /* position: relative; */
-}
-
-.resource-text::before{
-  content: "";
-  position: absolute;
-  left: -90px;
-  top: -30px;
-  width: 200px;
-  border: 4px solid #fd0;
-  height: 115%;
-  z-index: -1;
-  background-color: #171a1f;
+  font-size: 14px;
 }
 
 .resource-text div h2{
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .resource-text > *{
   margin-top: 30px;
   padding: 40px;
-  width: 700px;
+  /* width: 700px; */
   color: white
 }
 
 .box {
   /* background: gray; */
-  margin: 20px;
+  margin: 10px;
   width: 100px;
   height: 100px;
   cursor: pointer;
@@ -167,7 +233,7 @@
   padding: 50px 10px;
   border: 6px solid #e5e7e9;
   text-align: center;
-  width: 300px;
+  width: 80vw;
 }
 
 .service .service-icon {
@@ -203,25 +269,9 @@
   color: white
 }
 
-/* .bigText{
-  max-width: 1232px;
-  color: #21242a;
-  font-size: 223px;
-  font-weight: 800;
-  line-height: 209px;
-  position: absolute;
-  left: 0;
-  top: 0;
-  background-color: #171a1f;
-  padding: 50px 0;
-  text-transform: uppercase;
-  overflow: hidden;
-  z-index: -1;
-}  */
-
-
 .address{
-  width: 20%;
+  width: auto;
+  text-align: center;
   margin: 25px;
 }
 
@@ -232,6 +282,8 @@
   color: white;
   font-size: 15px;
   z-index: 99;
+  position: relative;
+  bottom: 0;
 }
 
 .company-culture{

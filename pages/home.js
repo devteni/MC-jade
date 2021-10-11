@@ -39,9 +39,8 @@ export const Index = () => {
                         <Col sm>
                             <h1 className="p-5 font-weight-bolder text-center herotext">THE JOB IS THE BOSS</h1>
                             <h3 className="text-muted mb-5">The Design-Build firm where Build Smart isnt just a tagline.</h3>
-                            <a href="#" className="cta">View projects</a>
+                            <p><a href="#" className="cta">View projects</a></p>
                         </Col>
-
                     </Row>
                     
                 </Container>
@@ -78,7 +77,7 @@ export const Index = () => {
                 {/* <div className={styles.bigText}>the job is the boss</div> */}
                 <Container fluid>
                     <h2 className="text-center text-white">Services</h2>
-                    <Row className="justify-center-md-center">
+                    <Row className="">
                         {
                             services.map((service, i) => {
                                 return (

@@ -33,6 +33,7 @@ export const Footer = () => {
         <footer id="footer">
                 <Container fluid="sm">
                 <h2 className="text-center">Offices</h2>
+                {/* <div className="border border-bottom w-25 text-center"></div> */}
                     <Row>
                     {
                         addresses.map((address, i) => {
@@ -54,13 +55,13 @@ export const Footer = () => {
                 </Row>
 
             <section className="text-center">
-                <p className="p-3 font-weight-light">BUILDING EMERGENCY? CALL US 24/7 AT +23479838990</p>
+                <p className="p-3" style={{fontWeight: "bolder", fontSize: "20px"}}>BUILDING EMERGENCY?<br/> <small>CALL US 24/7 AT +23479838990</small></p>
                 {/* social links */}
                 {/* <div className="row">
                     <a><i className=""></i></a>
                 </div> */}
                 <div className="copyright">
-                    <p>&copy; 2021 MCjade constructions. All marks are trademarks of their respective owners</p>
+                    <p style={{fontStyle: "italic"}}>&copy; 2021 MCjade constructions. All marks are trademarks of their respective owners</p>
                 </div>
             </section> 
             </Container>  

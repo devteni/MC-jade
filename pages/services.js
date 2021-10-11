@@ -37,6 +37,7 @@ export default function Service(){
                         </Col>
                     </Row>
                 </Container>
+                <hr />
                 <Container className="pt-5">
                     <Row>
                         <Col>
@@ -44,7 +45,7 @@ export default function Service(){
                             Voluptates, rem aspernatur. Iure fuga, cumque, perferendis mollitia ullam odit explicabo soluta quo 
                             molestias quibusdam magni sapiente in, exercitat
                         </Col>
-                        <Col className="mx-5">
+                        <Col className="">
                             <div className="service" data-aos="fade-left">
                                 <h4>Project execution</h4>
                                 <p>lorem10
@@ -54,10 +55,11 @@ export default function Service(){
                         </Col>
                     </Row>
                 </Container>
+                <hr />
                 <Container className="pt-5">
                     <Row>
                         <Col>
-                            <div className="service" data-aos="zoom-in" style={{background:"url('../public/assets/img/consult.jpg')"}}>
+                            <div className="service" data-aos="zoom-in">
                                 <h4>Consultancy services</h4>
                                 <p>lorem10
 
@@ -71,6 +73,7 @@ export default function Service(){
                         </Col>
                     </Row>
                 </Container>
+                <hr />
                 <Container className="pt-5">
                     <Row>
                         <Col className="text-white" data-aos="fade-left" data-aos-delay="700">
@@ -78,8 +81,8 @@ export default function Service(){
                             Voluptates, rem aspernatur. Iure fuga, cumque, perferendis mollitia ullam odit explicabo soluta quo 
                             molestias quibusdam magni sapiente in, exercitat
                         </Col>
-                        <Col className="mx-5">
-                            <div class="service" data-aos="zoom-out" style={{background:"url('../public/assets/img/contract.jpg')"}}>
+                        <Col className="">
+                            <div class="service" data-aos="zoom-out">
                                 <h4>Contracts</h4>
                                 <p>lorem10
                                 </p>
