@@ -23,7 +23,7 @@ export default function Service(){
                     <Container className="pt-5">
                     <Row>
                         <Col>
-                            <div class="service" data-aos="fade-right">
+                            <div className="service" data-aos="fade-right">
                                 <h4>Procurement</h4>
                                 <p>lorem10
 
@@ -82,7 +82,7 @@ export default function Service(){
                             molestias quibusdam magni sapiente in, exercitat
                         </Col>
                         <Col className="">
-                            <div class="service" data-aos="zoom-out">
+                            <div className="service" data-aos="zoom-out">
                                 <h4>Contracts</h4>
                                 <p>lorem10
                                 </p>

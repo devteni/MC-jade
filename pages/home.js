@@ -30,7 +30,7 @@ const services = [
     }
 ]
 
-export const Index = () => {
+export default function Index() {
     return(
         <div>
             <div className="hero" id="hero">
@@ -81,7 +81,7 @@ export const Index = () => {
                         {
                             services.map((service, i) => {
                                 return (
-                                <Col lg={3}>
+                                <Col lg={3} key={i}>
                                     <Service 
                                         key={i}
                                         id={services[i].id}

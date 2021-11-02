@@ -19,7 +19,6 @@
     position: absolute;
     padding: 10px 38px;
     margin-top: 15px;
-    background:blue;
     background: gray;
     list-style-type: none;
     
@@ -32,7 +31,7 @@
     width: 20vw;
   }
   .dropdown:hover .dropdownMenu > *{
-    padding: 10px;
+    padding: 11px;
   }
   .dropdown:hover .dropdownMenu > li {
     width: 200px;

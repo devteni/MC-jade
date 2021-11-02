@@ -18,10 +18,10 @@ export const Attribution = () => {
                             <Col sm>
                                 <Row className="justify-center mx-lg-3 px-lg-5">
                                     <div style={{display: "flex", flexWrap: "wrap"}}>
-                                    <div className="box" data-aos="zoom-in"><Image src={Corps}/></div>
-                                    <div className="box" data-aos="zoom-in"><Image src={USCorps}/></div>
-                                    <div className="box" data-aos="zoom-in"><Image src={Walgreens}/></div>
-                                    <div className="box" data-aos="zoom-in"><Image src={USPS}/></div>
+                                    <div className="box" data-aos="zoom-in"><Image src={Corps} alt="corps"/></div>
+                                    <div className="box" data-aos="zoom-in"><Image src={USCorps} alt="uscorps"/></div>
+                                    <div className="box" data-aos="zoom-in"><Image src={Walgreens} alt="walgreens"/></div>
+                                    <div className="box" data-aos="zoom-in"><Image src={USPS} alt="usps"/></div>
                                     <div className="box"></div>
                                     <div className="box"></div>
                                     <div className="box"></div>

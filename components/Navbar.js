@@ -14,16 +14,16 @@ export const NavBar = () => {
               <Nav.Link href="/">Home</Nav.Link>
               <Nav.Link href="/about" className="dropdown">About us
                 <ul className="dropdownMenu">
-                  <li><Link href="/about">Our History</Link></li>
-                  <li><Link href="/about">Our Clients</Link></li>
-                  <li><Link href="/about">Our Big Shots</Link></li>
+                  <li><Nav.Link href="/about">Our History</Nav.Link></li>
+                  <li><Nav.Link href="/about">Our Clients</Nav.Link></li>
+                  <li><Nav.Link href="/about">Our Big Shots</Nav.Link></li>
                 </ul>
               </Nav.Link>
               <Nav.Link href="/services" className="dropdown">Services
                 <ul className="dropdownMenu">
-                    <li><a href="/services">Procurement</a></li>
-                    <li><a href="/services">Consultancy</a></li>
-                    <li><a href="/services">Project execution</a></li>
+                    <li><Nav.Link href="/services">Procurement</Nav.Link></li>
+                    <li><Nav.Link href="/services">Consultancy</Nav.Link></li>
+                    <li><Nav.Link href="/services">Project execution</Nav.Link></li>
                 </ul>
               </Nav.Link> 
               <Nav.Link href="/whyus">Why MCjade</Nav.Link>

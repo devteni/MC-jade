@@ -38,7 +38,7 @@ export const Footer = () => {
                     {
                         addresses.map((address, i) => {
                             return(
-                                <Col>
+                                <Col key={i}>
                                     <div className="address">
                                         <address>
                                             <b>{addresses[i].state}</b>
