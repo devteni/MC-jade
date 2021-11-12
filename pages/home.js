@@ -50,7 +50,7 @@ export default function Index() {
                 <Container className="pt-5">
                     <div className="row">
                         <Col sm style={{boxShadow:"5px 5px 5px gray"}}>
-                            <h1 className="font-weight-bolder" style={{color: "rgba(255, 136, 0, 0.808);"}}>WE&apos;RE THE BEST AT WHAT WE DO
+                            <h1 className="font-weight-bolder" style={{color: "rgba(255, 136, 0, 0.808)"}}>WE&apos;RE THE BEST AT WHAT WE DO
                             </h1>
                             <section>
                             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint voluptates, possimus ipsa quod amet maiores cum suscipit iure obcaecati veniam quis quae unde doloremque mollitia autem nulla nisi fugiat eveniet? Et inventore dolores necessitatibus alias corrupti ducimus quibusdam ipsam voluptatum, cum dignissimos reiciendis, impedit quia tempore sit tempora animi molestias provident nemo modi mollitia maxime! 

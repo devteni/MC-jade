@@ -92,12 +92,12 @@
 
 .serv{
   margin: 20px 5px;
-  padding: 40px 10px;
+  padding: 40px 5px;
   border: 2px solid #e5e7e9;
   text-align: center;
 }
 
-.serv h4 {
+.serv h5 {
   text-transform: uppercase;
   font-weight: bold;
   /* padding: ; */
@@ -106,7 +106,7 @@
 .serv p {
   color: #9b9b9b;
   font-size: 14px;
-  /* padding: 10px */
+  padding: 0 10px
 }
 
 .serv:hover{
